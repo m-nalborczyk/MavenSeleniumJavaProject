@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
-public class LocatorsDemo1 {
+public class LocatorsDemo {
 
     public static void main(String[] args) {
         //open browser
