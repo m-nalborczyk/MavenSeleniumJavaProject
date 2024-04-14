@@ -33,6 +33,27 @@ public class ExplicitWaitDemo {
         element.sendKeys("admin");
 
 
+        //Below the steps to situation where the element is outside the viewport and in order to interact with it user would have to scroll down the page
+
+        //        WebDriver driver = new ChromeDriver();
+        //        driver.get("https://example.com");
+        //
+        // Create a WebDriverWait instance with a timeout
+        //        WebDriverWait wait = new WebDriverWait(driver, 10);
+        //
+        // Wait for the element to be present in the DOM
+        //        WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("elementId")));
+        //
+        // Scroll the element into view (if needed)
+        //        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+        //
+        // Wait for the element to be visible within the viewport
+        //        element = wait.until(ExpectedConditions.visibilityOf(element));
+        //
+        // Now, you can interact with the element
+        //        element.click();
+
+
 
 
     }
