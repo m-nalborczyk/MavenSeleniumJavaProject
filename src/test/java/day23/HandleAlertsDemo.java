@@ -30,6 +30,7 @@ public class HandleAlertsDemo {
         //alertWindow.accept();
         alertWindow.dismiss();
 
+        //we can also perform actions on alert without creating Alert object, simply using eg. "driver.switchTo().alert().accept();"
 
     }
 }
