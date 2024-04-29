@@ -1,6 +1,7 @@
 package day26;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,6 +24,10 @@ public class HandleIframeAssignment {
         //clearing default content and inputting required one
         driver.findElement(By.xpath("//body[@id='tinymce']/p")).clear();
         driver.findElement(By.xpath("//body[@id='tinymce']/p")).sendKeys("Testing my input.");
+        //selecting input and making it in bold
+        driver.findElement(By.xpath("//body[@id='tinymce']/p")).sendKeys(Keys.CONTROL + "A");
+        driver.switchTo().defaultContent();
+        driver.findElement(By.xpath("//button[@title='Bold']")).click();
 
         driver.quit();
 
