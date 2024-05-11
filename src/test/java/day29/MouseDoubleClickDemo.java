@@ -21,6 +21,7 @@ public class MouseDoubleClickDemo {
     // handle cookies pop-up
         driver.findElement(By.xpath("//div[@id='accept-choices']")).click();
 
+
     // double-click on the element and validation for it
         Actions action = new Actions(driver);
         driver.switchTo().frame("iframeResult");
@@ -33,7 +34,7 @@ public class MouseDoubleClickDemo {
         } else {
             System.out.println("Test failed.");
         }
-        driver.quit();
+
 
 
     }
