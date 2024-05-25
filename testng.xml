@@ -5,7 +5,7 @@
         <classes>
             <class name="day34.FirstTest"></class>
             <class name="day34.SecondTest"></class>
-            <class name="day34.ThirdTestCase"></class>
+            <class name="day34.ThirdTest"></class>
         </classes>
     </test>
 </suite>
